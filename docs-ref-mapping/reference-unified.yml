@@ -12,7 +12,7 @@
         href: ~/docs-ref-services/{moniker}/mgmt-advisor-readme.md
         children:
         - azure-mgmt-advisor
-  - name: Agrifood
+  - name: AgriFood
     href: ~/docs-ref-services/{moniker}/agrifood.md
     landingPageType: Service
     items:
@@ -132,6 +132,14 @@
         href: ~/docs-ref-services/{moniker}/mgmt-authorization-readme.md
         children:
         - azure-mgmt-authorization
+  - name: Auto Suggest
+    href: ~/docs-ref-services/{moniker}/auto-suggest.md
+    landingPageType: Service
+    items:
+    - name: Auto Suggest
+      href: ~/docs-ref-services/{moniker}/cognitiveservices-search-autosuggest-readme.md
+      children:
+      - azure-cognitiveservices-search-autosuggest
   - name: Automanage
     href: ~/docs-ref-services/{moniker}/automanage.md
     landingPageType: Service
@@ -624,16 +632,6 @@
         href: ~/docs-ref-services/{moniker}/mgmt-datafactory-readme.md
         children:
         - azure-mgmt-datafactory
-  - name: Data Lake  Storage
-    href: ~/docs-ref-services/{moniker}/data-lake--storage.md
-    landingPageType: Service
-    items:
-    - name: Management
-      items:
-      - name: Resource Management - Data Lake Store
-        href: ~/docs-ref-services/{moniker}/mgmt-datalake-store-readme.md
-        children:
-        - azure-mgmt-datalake-store
   - name: Data Protection
     href: ~/docs-ref-services/{moniker}/data-protection.md
     landingPageType: Service
@@ -1850,6 +1848,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-serialconsole-readme.md
         children:
         - azure-mgmt-serialconsole
+  - name: Server Management
+    href: ~/docs-ref-services/{moniker}/server-management.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Server Management (deprecated)
+        href: ~/docs-ref-services/{moniker}/mgmt-servermanager-readme.md
+        children:
+        - azure-mgmt-servermanager
   - name: Service Bus
     href: ~/docs-ref-services/{moniker}/service-bus.md
     landingPageType: Service
@@ -1976,6 +1984,10 @@
         href: ~/docs-ref-services/{moniker}/mgmt-datalake-analytics-readme.md
         children:
         - azure-mgmt-datalake-analytics
+      - name: Resource Management - Data Lake Store
+        href: ~/docs-ref-services/{moniker}/mgmt-datalake-store-readme.md
+        children:
+        - azure-mgmt-datalake-store
       - name: Resource Management - Storage
         href: ~/docs-ref-services/{moniker}/mgmt-storage-readme.md
         children:
